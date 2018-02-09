@@ -1,0 +1,106 @@
+TC1: Accessing the system through Internet Explorer
+1. Open Internet Explorer
+2. Open http://store.demo.com
+Expected result: Load header, navigation bar and the home page
+----------------------------------------------------------------------------
+TC2: Accessing the system through Mozilla Firefox
+1. Open Mozilla Firefox
+2. Open http://store.demo.com
+Expected result: Load header, navigation bar and the home page
+------------------------------------------------------------------------------
+TC3: Accessing the system through Google Chrome
+1. Open Google Chrome
+2. Open http://store.demo.com
+Expected result: Load header, navigation bar and the home page
+------------------------------------------------------------------------------
+TC4: Accessing the system through Safari
+1. Open Safari
+2. Open http://store.demo.com
+Expected result: Load header, navigation bar and the home page
+------------------------------------------------------------------------------
+TC5: Navigation bar "Home page" - slider button
+1. Open http://store.demo.com/home
+2. Click on slider's buttons
+Expected result: Leads to the Next/Previous slide
+-----------------------------------------------------------------------------
+TC6: Navigation bar "Home page" - latest products section
+1. Open http://store.demo.com/home
+2. Scroll below to "Latest Blog Post"
+3. Click on "More details" hyperlinks of the product
+Expected result: Show latest products section and open page of the choosen product
+-------------------------------------------------------------------------------------
+TC7: Navigation bar - "Checkout" - unregistered user
+1. Open http://store.demo.com/home
+2. Click on "Checkout" hyperlink
+Expected result: Redirect user to Register / Log in page
+-------------------------------------------------------------------------------------
+TC8: Navigation bar - "Checkout" - registered user
+1. Open http://store.demo.com/product-page/Checkout
+2. Click on "My account" hyperlink
+3. Login the system
+Expected result: Show the "Logout" button on the navigation bar
+-------------------------------------------------------------------------------------
+TC9: Navigation bar - "Checkout" - registered user - after Logout stay on "Checkout"
+1. Open http://store.demo.com/product-page/Checkout
+2. Click on "My account" hyperlink
+3. Login the system
+4. Click "Checkout" hyperlink
+5. Click "Logout" hyperlink
+Expected result: User is successfully Logged-out and lands to Checkout page
+--------------------------------------------------------------------------------------
+TC10: Navigation bar - user management - unregistered user
+1. Open http://store.demo.com/home
+2. Click on "My Account" hyperlink
+Expected result: Redirect user to Register or Log in page
+-------------------------------------------------------------------------------------
+TC11: Navigation bar - user management- registered user - show "Log out"
+1. Open http://store.demo.com/
+2. Click on "My account" hyperlink
+3. Login the system
+Expected result: It is shown "My Account" and "Log out" hyperlinks
+--------------------------------------------------------------------------------------
+TC12: Navigation bar - user management- registered user - show "Log in"
+1. Open http://store.demo.com/
+2. Click on "My account" hyperlink
+3. Login the system
+4. Click "Loguot" hyperlink
+Expected result: User is successfully Logged out and redirect to Register or Log in page
+----------------------------------------------------------------------------------------
+TC13: Navigation bar - Product category page
+1. Open http://store.demoqa.com/products-page/product-category/
+2. Click on "Product category" hyperlink
+Expected result: Open Product category page and show the sub-categorys as links in a drop-down menu
+----------------------------------------------------------------------------------------
+TC14: Navigation bar - Product category - Grid view
+1. Open http://store.demoqa.com/products-page/product-category/
+2. Click on "Grid" 
+Expected result: Show products as grid in a simple view
+----------------------------------------------------------------------------------------
+TC15: Navigation bar - Product category - List view
+1. Open http://store.demoqa.com/products-page/product-category/
+2. Click on "List" 
+Expected result: Show the products in a list view
+----------------------------------------------------------------------------------------
+TC16: Navigation bar - Product category - sub-category links
+1. Open http://store.demoqa.com/products-page/product-category/
+2. Click on one of the sub-category hyperlink
+Expected result: Display respective products found in the sub-categorys
+------------------------------------------------------------------------------------------
+TC17: Navigation bar "Services&Support"
+1. Open http://store.demoqa.com/
+2. Click on "Services&Support" hyperlink
+Expected result: Display Service and Support pages
+--------------------------------------------------------------------------------------------
+TC18: Navigation bar - "All Product" - unregistered users
+1. Open http://store.demoqa.com/
+2. Click on "All Product" hyperlink
+3. Click on one name of a product hyperlink
+Expected result: Display all products page in a sipmle views of random products.
+                 When the user click on one name product, show it in the symple view.
+--------------------------------------------------------------------------------------------
+TC19:  Navigation bar - "All Product" - registered users
+1. Open http://store.demoqa.com/
+2. Log in the system
+3. Click on "All Product" hyperlink
+Expected result: Display all products page and show simple views of random products
+--------------------------------------------------------------------------------------------
